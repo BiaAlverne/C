@@ -2,7 +2,8 @@
 
 int main() {
     int n1, n2;
-    float soma, subtracao, divisao, multiplicacao;
+    int soma, subtracao, multiplicacao;
+    float divisao;
 
     printf("Digite o primeiro número: ");
     scanf("%d", &n1);
@@ -21,9 +22,9 @@ int main() {
     }
 
     printf("\nOperações Matemáticas:\n");
-    printf("Soma: %.2f\n", soma);
-    printf("Subtração: %.2f\n", subtracao);
-    printf("Multiplicação: %.2f\n", multiplicacao);
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", subtracao);
+    printf("Multiplicação: %d\n", multiplicacao);
     printf("Divisão: %.2f\n", divisao);
 
     return 0;
